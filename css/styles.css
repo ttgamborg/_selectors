@@ -1,3 +1,13 @@
+/* 
+---Basic Selectors
+1. Type Selector (Element Selector):
+Targets elements by their tag name.
+Example: div { color: black; } targets all <div> elements. 
+*/
+h1 {
+  color: blueviolet;
+}
+
 p {
   color: blueviolet;
   background: yellow;
@@ -7,6 +17,17 @@ p {
   background: blue;
 }
 
-h1 {
-  color: blueviolet;
+div {
+  color: black;
+}
+
+/* 
+---Basic Selectors
+2. Class Selector:
+Targets elements by their class attribute.
+Example: .menu { font-size: 14px; } targets all elements with a class of "menu". 
+*/
+
+.menu {
+  background: red;
 }
