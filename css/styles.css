@@ -31,3 +31,7 @@ Example: .menu { font-size: 14px; } targets all elements with a class of "menu".
 .menu {
   background: red;
 }
+
+.hvasierdu {
+  background: pink;
+}
