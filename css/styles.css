@@ -1,3 +1,5 @@
+/* https://www.w3schools.com/csSref/css_selectors.php */
+
 /* 
 ---Basic Selectors
 1. Type Selector (Element Selector):
@@ -15,6 +17,7 @@ p {
 
 p {
   background: blue;
+  color: black;
 }
 
 div {
@@ -34,4 +37,31 @@ Example: .menu { font-size: 14px; } targets all elements with a class of "menu".
 
 .hvasierdu {
   background: pink;
+}
+
+p.test {
+  background: greenyellow;
+}
+
+/* 
+---Basic Selectors
+3. ID Selector:
+Targets an element by its ID attribute.
+It's more specific than class and type selectors.
+Example: #header { background-color: blue; } targets the element with an ID of "header". 
+*/
+
+#greenmarking {
+  background: green;
+}
+
+/* 
+---Basic Selectors
+4. Universal Selector:
+Targets all elements in the HTML document.
+Example: * { margin: 0; padding: 0; } sets all elements to have zero margin and padding. 
+*/
+
+* {
+  text-decoration: line-through;
 }
